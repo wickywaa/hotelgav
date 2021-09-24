@@ -36,7 +36,7 @@ func (m *Repository) Home(w http.ResponseWriter, r *http.Request) {
 	m.App.Session.Put(r.Context(), "remote_Ip", remoteIP)
 
 	render.RenderTemplate(w, "home.page.tmpl", &models.TemplateData{})
-	log.Println("made it  here")
+
 }
 
 func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
