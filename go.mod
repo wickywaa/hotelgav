@@ -7,5 +7,5 @@ require (
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/go-chi/chi/v5 v5.0.4
 	github.com/justinas/nosurf v1.1.1
-	github.com/wickywaa/gocourse1 v0.0.0-20210923175341-290b11edadc4 // indirect
+	golang.org/x/net v0.0.0-20211008194852-3b03d305991f // indirect
 )
