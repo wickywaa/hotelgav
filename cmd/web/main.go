@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/wickywaa/hotelgav/pkg/config"
-	"github.com/wickywaa/hotelgav/pkg/handlers"
-	"github.com/wickywaa/hotelgav/pkg/render"
+	"github.com/wickywaa/hotelgav/internal/config"
+	"github.com/wickywaa/hotelgav/internal/handlers"
+	"github.com/wickywaa/hotelgav/internal/render"
 )
 
 var app config.AppConfig

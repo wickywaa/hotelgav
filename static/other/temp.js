@@ -1,6 +1,5 @@
- const searchButton = document.getElementById("search-button")
-  const modalButton = document.getElementById("modalButton")
-  const errorButton = document.getElementById("errorButton")
+ const searchButton = document.getElementById("check-availability")
+ 
 
   let attention = Prompt()
 
@@ -70,3 +69,16 @@ const c = {
   attention.error(c);
 
 })
+
+  })
+
+
+
+
+const elem2 = document.getElementById("date-picker-test");
+
+const datepicker = new DateRangePicker(elem2, {
+
+  format:"dd/mm/yyyy"
+  // ...options
+}); 

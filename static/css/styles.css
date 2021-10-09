@@ -13,13 +13,12 @@
  }
 
  .datepicker{
-
- z-index:10000
+     z-index:10000;
  }
 
 
 
- .my-footer-div{
+ .my-footer{
     margin-top : 25px;
     background-color: #163b65;
     color: white;
